@@ -12,7 +12,7 @@ pipeline{
         stage('build'){
             steps{
                 echo 'this is the build job'
-                sh 'nps install'
+                sh 'npm install'
                 //sleep 4
             }
         }
